@@ -27,7 +27,7 @@ public class ClientCreationTests extends BaseTest{
 		clientCreationPage.waitForPageLoad();
 		String time = new SimpleDateFormat("yyyyMMddHHmmss").format(new Date());
 		softAssert.assertEquals(driver.getCurrentUrl(), prop.getProperty(environment+".clientCreationURL"),"Incorrect page URL for client creation page");
-		clientCreationPage.createClient(prop.getProperty("companytype"), prop.getProperty("companyname")+time, prop.getProperty("companyCode")+time);
+		clientCreationPage.createClient(prop.getProperty("companytype"), prop.getProperty("companyCode")+time, prop.getProperty("companyname")+time);
 		clientCreationPage.validateCreationSucessMessage();
 		softAssert.assertAll();
 	}

@@ -2,23 +2,27 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-03-19T15:54:23 EDT" name="Default suite" finished-at="2022-03-19T15:54:33 EDT" duration-ms="9580">
+  <suite started-at="2022-03-19T16:14:50 EDT" name="Default suite" finished-at="2022-03-19T16:15:01 EDT" duration-ms="11153">
     <groups>
     </groups>
-    <test started-at="2022-03-19T15:54:23 EDT" name="Default test" finished-at="2022-03-19T15:54:33 EDT" duration-ms="9580">
+    <test started-at="2022-03-19T16:14:50 EDT" name="Default test" finished-at="2022-03-19T16:15:01 EDT" duration-ms="11153">
       <class name="io.ueat.www.tests.ClientCreationTests">
-        <test-method is-config="true" signature="readProperties()[pri:0, instance:io.ueat.www.tests.ClientCreationTests@54e1c68b]" started-at="2022-03-19T15:54:23 EDT" name="readProperties" finished-at="2022-03-19T15:54:23 EDT" duration-ms="7" status="PASS">
+        <test-method is-config="true" signature="readProperties()[pri:0, instance:io.ueat.www.tests.ClientCreationTests@273e7444]" started-at="2022-03-19T16:14:50 EDT" name="readProperties" finished-at="2022-03-19T16:14:50 EDT" duration-ms="6" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- readProperties -->
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:io.ueat.www.tests.ClientCreationTests@54e1c68b]" started-at="2022-03-19T15:54:23 EDT" name="openBrowser" finished-at="2022-03-19T15:54:27 EDT" duration-ms="3902" status="PASS">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:io.ueat.www.tests.ClientCreationTests@273e7444]" started-at="2022-03-19T16:14:50 EDT" name="openBrowser" finished-at="2022-03-19T16:14:54 EDT" duration-ms="4030" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method signature="createClient()[pri:0, instance:io.ueat.www.tests.ClientCreationTests@54e1c68b]" started-at="2022-03-19T15:54:27 EDT" name="createClient" finished-at="2022-03-19T15:54:33 EDT" duration-ms="5651" status="PASS">
+        <test-method signature="createClient()[pri:0, instance:io.ueat.www.tests.ClientCreationTests@273e7444]" started-at="2022-03-19T16:14:54 EDT" name="createClient" finished-at="2022-03-19T16:15:01 EDT" duration-ms="6790" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createClient -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:io.ueat.www.tests.ClientCreationTests@273e7444]" started-at="2022-03-19T16:15:01 EDT" name="closeBrowser" finished-at="2022-03-19T16:15:01 EDT" duration-ms="309" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
       </class> <!-- io.ueat.www.tests.ClientCreationTests -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

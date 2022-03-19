@@ -14,8 +14,8 @@ public class LoginPage {
 	}
 
 	private By lnk_englishLanguage = By.linkText("en");
-	private By txt_username = By.name("input-1002");
-	private By txt_password = By.name("input-1003");
+	private By txt_username = By.xpath("//input[@placeholder='Email']");
+	private By txt_password = By.xpath("//input[@placeholder='Password']");
 	private By btn_login = By.xpath("//button[text()='Login']");
 
 	public void waitForPageLoad() {
